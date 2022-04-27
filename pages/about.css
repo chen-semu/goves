@@ -1,0 +1,5 @@
+.article {
+  background-color: rgba(137, 137, 137, 0.203) !important;
+}
+.like{transition: all 0.1s ease-in; color:rgba(0, 0, 0, 0.484)}
+.like:hover{color: red;}
