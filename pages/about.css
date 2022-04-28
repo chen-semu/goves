@@ -1,9 +1,24 @@
+body {
+  background-color: #301941;
+}
 .article {
   background-color: rgba(137, 137, 137, 0.203) !important;
 }
-.like{transition: all 0.1s ease-in; color:rgba(0, 0, 0, 0.484)}
-.like:hover{color: red;}
-.linkNavbar{
+.like {
+  transition: all 0.1s ease-in;
+  color: rgba(0, 0, 0, 0.484);
+}
+.like:hover {
+  color: red;
+}
+.vedio-groups {
+  background-color: rgba(255, 255, 255, 0.491);
+  border: 1px solid white;
+  border-radius: 1vw;
+  padding-top: 1vw;
+}
+.title{color:white}
+.linkNavbar {
   text-decoration: none;
   color: #120460;
   font-weight: bold;
