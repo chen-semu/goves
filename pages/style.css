@@ -1,9 +1,10 @@
-body {
-  display: grid;
-  height: 100vh;
-  background-image: url(/PICS/pexels-christina-morillo-1181317.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+body{
+    display: grid;
+    height: 100vh;
+    background-image: url(/PICS/home\ page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 @media screen and (max-width: 600px) {
   body {
@@ -83,11 +84,19 @@ a:active {
   color: #b57ae2;
 }
 
+<<<<<<< HEAD
 main {
   grid-area: main;
   color: #ffffff;
   min-height: 300pxpx;
   min-width: 900px;
+=======
+main{
+    grid-area: main;
+    color: #ffffff;
+    height: 300px;
+    min-width: 900px;
+>>>>>>> b948c6f4abe94dc26d53ace30f1f20c6057bb642
 }
 .sect {
   grid-area: section;
