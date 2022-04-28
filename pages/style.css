@@ -87,7 +87,7 @@ a:active {
 main{
     grid-area: main;
     color: #ffffff;
-    height: 300px;
+    height: 80vh;
     min-width: 900px;
 }
 .sect {
