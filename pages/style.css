@@ -34,13 +34,10 @@ header{
     position: sticky;
     height: 125px;
 }
-.profile image{
-    height: 10px;
-}
 .menu{
     min-height: 20px;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .nav-bar {
         position: sticky;
         transition: all 2s;
@@ -68,18 +65,30 @@ header{
     overflow: visible;
     color: #120460;
     content: " ";
-}
+} */
 .linkNavbar{
     text-decoration: none;
     color: #120460;
+    font-weight: bold;
 }
+a:link {
+    color: #301941;
+}
+a:visited {
+    color: #301941;
+}
+a:hover {
+    color: aliceblue;
+}
+a:active {
+    color: #b57ae2;
+}
+
 main{
     grid-area: main;
     color: #ffffff;
     min-height: 300pxpx;
     min-width: 900px;
-}
-.main-top {
 }
 section{
     grid-area: section;
@@ -90,10 +99,13 @@ section{
 }
 footer{
     grid-area: footer;
-    background-color: #ffffff;
-    color: #120460;
+    background-color: #743e9a;
+    color: #000000;
     min-height: 300pxpx;
     min-width: 900px;
     position: sticky;
+}
+.footer-nav{
+    margin-top: 2%;
 }
 
