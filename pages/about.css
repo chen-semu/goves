@@ -1,6 +1,14 @@
 body {
   background-color: #301941;
 }
+/*.courses{align-items: center; ;}*/
+header {
+  grid-area: header;
+  background-color: #6d4d84;
+  color: #000000;
+  position: sticky;
+  height: 125px;
+}
 .article {
   background-color: rgba(137, 137, 137, 0.203) !important;
 }
@@ -17,7 +25,32 @@ body {
   border-radius: 1vw;
   padding-top: 1vw;
 }
-.title{color:white}
+.title {
+  color: white;
+  text-align: center;
+}
+/* .course { 
+  border: 2vw sollid rgb(0, 238, 255);
+  border-radius: 40vw;
+  background-color: yellow;
+  width: 30vw;
+  height: 30vw;
+  transition-property: all;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  overflow: hidden;
+  justify-self: center;
+  
+}
+.course:hover { 
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  border-radius: 2vw;
+  background-color: none;
+  transition-duration: 3s;
+  transform:translate(1px,1px);
+ } */
 .linkNavbar {
   text-decoration: none;
   color: #120460;
@@ -35,3 +68,10 @@ a:hover {
 a:active {
   color: #b57ae2;
 }
+.footer {
+  grid-area: footer;
+  background-color: #743e9a;
+  color: #000000;
+  min-height: 300pxpx;
+  min-width: 900px;
+  position: sticky;}

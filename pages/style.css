@@ -1,41 +1,40 @@
-body{
-    display: grid;
-    height: 100vh;
-    background-image: url(/PICS/pexels-christina-morillo-1181317.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+body {
+  display: grid;
+  height: 100vh;
+  background-image: url(/PICS/pexels-christina-morillo-1181317.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 600px) {
-    body {
-        grid-template-areas: 
-        'header header'
-        'main main'
-        'main main'
-        'main main'
-        'footer footer';
-        gap: 0;
-    }
+  body {
+    grid-template-areas:
+      "header header"
+      "main main"
+      "main main"
+      "main main"
+      "footer footer";
+    gap: 0;
   }
-@media screen and (min-width: 600px) {
-    body {
-        grid-template-areas: 
-        'header header header header'
-        'main main main main'
-        'main main main main'
-        'footer footer footer footer';
-        gap: 1;
-    }
-  }
-header{
-    grid-area: header;
-    background-color: #ffffff58;
-    color: #000000;
-    position: sticky;
-    height: 125px;
 }
-.menu{
-    min-height: 20px;
+@media screen and (min-width: 600px) {
+  body {
+    grid-template-areas:
+      "header header header header"
+      "main main main main"
+      "main main main main"
+      "footer footer footer footer";
+    gap: 1;
+  }
+}
+header {
+  grid-area: header;
+  background-color: #ffffff58;
+  color: #000000;
+  position: sticky;
+  height: 125px;
+}
+.menu {
+  min-height: 20px;
 }
 /* @media screen and (max-width: 600px) {
     .nav-bar {
@@ -66,46 +65,48 @@ header{
     color: #120460;
     content: " ";
 } */
-.linkNavbar{
-    text-decoration: none;
-    color: #120460;
-    font-weight: bold;
+.linkNavbar {
+  text-decoration: none;
+  color: #120460;
+  font-weight: bold;
 }
 a:link {
-    color: #301941;
+  color: #301941;
 }
 a:visited {
-    color: #301941;
+  color: #301941;
 }
 a:hover {
-    color: aliceblue;
+  color: aliceblue;
 }
 a:active {
-    color: #b57ae2;
+  color: #b57ae2;
 }
 
-main{
-    grid-area: main;
-    color: #ffffff;
-    min-height: 300pxpx;
-    min-width: 900px;
+main {
+  grid-area: main;
+  color: #ffffff;
+  min-height: 300pxpx;
+  min-width: 900px;
 }
-section{
-    grid-area: section;
-    background-color: #b57ae2;
-    color: #ffffff;
-    min-height: 300pxpx;
-    min-width: 900px;
+.sect {
+  grid-area: section;
+  background-color: #b57ae2;
+  color: #ffffff;
+  min-height: 300pxpx;
+  min-width: 900px;
 }
-footer{
-    grid-area: footer;
-    background-color: #743e9a;
-    color: #000000;
-    min-height: 300pxpx;
-    min-width: 900px;
-    position: sticky;
+section {
+  background-color: white;
 }
-.footer-nav{
-    margin-top: 2%;
+footer {
+  grid-area: footer;
+  background-color: #743e9a;
+  color: #000000;
+  min-height: 300pxpx;
+  min-width: 900px;
+  position: sticky;
 }
-
+.footer-nav {
+  margin-top: 2%;
+}
