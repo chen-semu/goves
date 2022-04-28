@@ -12,7 +12,7 @@ body{
         'header header'
         'main main'
         'main main'
-        'section section'
+        'main main'
         'footer footer';
         gap: 0;
     }
@@ -22,7 +22,7 @@ body{
         grid-template-areas: 
         'header header header header'
         'main main main main'
-        'section section section section'
+        'main main main main'
         'footer footer footer footer';
         gap: 1;
     }
