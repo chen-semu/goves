@@ -1,6 +1,13 @@
 body {
   background-color: #301941;
 }
+.h2{width: fit-content;}
+.circels {
+  width: 40vw;
+  height: 40vw;
+  border: 1px solid black;
+  border-radius: 40vw;
+}
 /*.courses{align-items: center; ;}*/
 header {
   grid-area: header;
@@ -74,4 +81,5 @@ a:active {
   color: #000000;
   min-height: 300pxpx;
   min-width: 900px;
-  position: sticky;}
+  position: sticky;
+}
