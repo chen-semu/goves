@@ -1,0 +1,33 @@
+header{
+    background-color: blueviolet;
+}
+.linkNavbar{
+    text-decoration: none;
+    color: #120460;
+    font-weight: bold;
+}
+a:link {
+    color: #301941;
+}
+a:visited {
+    color: #301941;
+}
+a:hover {
+    color: aliceblue;
+}
+a:active {
+    color: #b57ae2;
+}
+.info-line{
+    max-width: 80px;
+}
+footer{
+    background-color: rgb(175, 110, 236);
+}
+.team-pic{
+    background-image: url(/PICS/batel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}

@@ -1,7 +1,7 @@
 body{
     display: grid;
     height: 100vh;
-    background-image: url(/PICS/pexels-christina-morillo-1181317.jpg);
+    background-image: url(/PICS/home\ page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -87,7 +87,7 @@ a:active {
 main{
     grid-area: main;
     color: #ffffff;
-    min-height: 300pxpx;
+    height: 300px;
     min-width: 900px;
 }
 section{
