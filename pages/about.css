@@ -3,3 +3,20 @@
 }
 .like{transition: all 0.1s ease-in; color:rgba(0, 0, 0, 0.484)}
 .like:hover{color: red;}
+.linkNavbar{
+  text-decoration: none;
+  color: #120460;
+  font-weight: bold;
+}
+a:link {
+  color: #301941;
+}
+a:visited {
+  color: #301941;
+}
+a:hover {
+  color: aliceblue;
+}
+a:active {
+  color: #b57ae2;
+}
