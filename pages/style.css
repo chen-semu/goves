@@ -84,19 +84,11 @@ a:active {
   color: #b57ae2;
 }
 
-<<<<<<< HEAD
-main {
-  grid-area: main;
-  color: #ffffff;
-  min-height: 300pxpx;
-  min-width: 900px;
-=======
 main{
     grid-area: main;
     color: #ffffff;
     height: 300px;
     min-width: 900px;
->>>>>>> b948c6f4abe94dc26d53ace30f1f20c6057bb642
 }
 .sect {
   grid-area: section;
