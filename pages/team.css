@@ -21,13 +21,53 @@ a:active {
 .info-line{
     max-width: 80px;
 }
-footer{
-    background-color: rgb(175, 110, 236);
-}
-.team-pic{
+#team-pic_1{
     background-image: url(/PICS/batel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
     height: 300px;
 }
+#team-pic_2{
+    background-image: url(/PICS/chen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+#team-pic_3{
+    background-image: url(/PICS/or.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+#team-pic_4{
+    background-image: url(/PICS/yosi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+#team-pic_5{
+    background-image: url(/PICS/dalia.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+#team-pic_6{
+    background-image: url(/PICS/aviel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+footer {
+    grid-area: footer;
+    background-color: #743e9adc;
+    color: #000000;
+    min-height: 12vh;
+    width: 100vw;
+}
+  

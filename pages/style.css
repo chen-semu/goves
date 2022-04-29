@@ -32,11 +32,11 @@ header {
   background-color: #ffffff58;
   color: #000000;
   position: sticky;
-  height: 125px;
+  height: 120px;
 }
-.menu {
+/* .menu {
   min-height: 20px;
-}
+} */
 /* @media screen and (max-width: 600px) {
     .nav-bar {
         position: sticky;
@@ -87,27 +87,23 @@ a:active {
 main{
     grid-area: main;
     color: #ffffff;
-    height: 80vh;
     min-width: 900px;
 }
-.sect {
+.white-back {
   grid-area: section;
   background-color: #b57ae2;
   color: #ffffff;
-  min-height: 300pxpx;
-  min-width: 900px;
 }
 section {
-  background-color: white;
+  height: 100vh;
+}
+.promotional-video{
+  margin-top: 10%;
 }
 footer {
   grid-area: footer;
-  background-color: #743e9a;
+  background-color: #743e9adc;
   color: #000000;
-  min-height: 300pxpx;
-  min-width: 900px;
-  position: sticky;
-}
-.footer-nav {
-  margin-top: 2%;
+  min-height: 12vh;
+  width: 100vw;
 }
