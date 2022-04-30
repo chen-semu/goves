@@ -34,38 +34,6 @@ header {
   position: sticky;
   height: 120px;
 }
-/* .menu {
-  min-height: 20px;
-} */
-/* @media screen and (max-width: 600px) {
-    .nav-bar {
-        position: sticky;
-        transition: all 2s;
-        text-decoration: none;
-        font-size: 20px;
-        background-color: #ffffff;
-        color: #120460;
-        content: url(/ICONS/menu.png);
-        width: fit-content;
-        overflow: hidden;
-    }
-  }
-@media screen and (min-width: 600px) {
-    .nav-bar {
-        display: flex;
-        position: sticky;
-        background-color: transparent;
-        transition: all 0.5s;
-        font-size: 20px;
-        justify-content: space-between;
-    }
-  }
-.nav-bar:hover{
-    width: 100vw;
-    overflow: visible;
-    color: #120460;
-    content: " ";
-} */
 .linkNavbar {
   text-decoration: none;
   color: #120460;

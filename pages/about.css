@@ -1,11 +1,8 @@
 body {
-  background-color: #301941;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 .h2 {
-  width: fit-content;
-}
+  width: fit-content;}
 .circels {
   width: 50vh;
   height: 50vh;
@@ -91,7 +88,7 @@ a:active {
 }
 .footer {
   grid-area: footer;
-  background-color: #743e9a;
+  background-color: #743e9a !important;
   color: #000000;
   min-height: 300pxpx;
   min-width: 900px;
