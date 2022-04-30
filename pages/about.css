@@ -1,16 +1,29 @@
 body {
   background-color: #301941;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.h2{width: fit-content;}
+.h2 {
+  width: fit-content;
+}
 .circels {
-  width: 40vw;
-  height: 40vw;
+  width: 50vh;
+  height: 50vh;
   border: 1px solid black;
-  border-radius: 40vw;
+  border-radius: 50vw;
+  transition: all 1.5s ease-out;
+}
+.every-course {
+  text-decoration: none;
 }
 /*.courses{align-items: center; ;}*/
 header {
-  grid-area: header;
+  background-color: #6d4d84;
+  color: #000000;
+  position: sticky;
+  height: 125px;
+}
+footer {
   background-color: #6d4d84;
   color: #000000;
   position: sticky;
@@ -18,6 +31,7 @@ header {
 }
 .article {
   background-color: rgba(137, 137, 137, 0.203) !important;
+  border-radius: 2vw;
 }
 .like {
   transition: all 0.1s ease-in;
@@ -82,4 +96,28 @@ a:active {
   min-height: 300pxpx;
   min-width: 900px;
   position: sticky;
+}
+.youtube {
+  width: 100%;
+}
+.circels:hover {
+  width: 30vw;
+  height: 30vw;
+}
+@media screen and (max-width: 600px) {
+  .circels {
+    width: 40vw;
+    height: 40vw;
+    transition: none;
+  }
+  .youtube {
+  }
+  .vedio-groups {
+    width: max-content;
+    margin-bottom: 3vw;
+  }
+  .row-column {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }
