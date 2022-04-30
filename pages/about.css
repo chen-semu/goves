@@ -37,9 +37,15 @@ footer {
 .like:hover {
   color: red;
 }
-.vedio-groups {
+.vedio-groups2 {
   background-color: rgba(255, 255, 255, 0.491);
   border: 1px solid white;
+  border-radius: 1vw;
+  padding-top: 1vw;
+}
+.vedio-groups {
+  background-color: rgba(120, 120, 120, 0.265);
+  border: 1px solid rgba(125, 125, 125, 0.477);
   border-radius: 1vw;
   padding-top: 1vw;
 }
