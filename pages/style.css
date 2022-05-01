@@ -22,12 +22,13 @@ body{
 @media screen and (max-width: 600px) {
   body {
     grid-template-areas:
-      "header header"
+      "header header "
       "main main"
       "main main"
       "main main"
       "footer footer";
     gap: 0;
+    height: 250vh;
   }
   
   .sidebar2 {
@@ -64,6 +65,11 @@ header {
   position: sticky;
   height: 120px;
 }
+@media screen and (max-width: 600px) {
+  nav a {
+    font-weight: bolder;
+  }
+}
 .linkNavbar {
   text-decoration: none;
   color: #120460;
@@ -96,7 +102,7 @@ section {
   height: 100vh;
 }
 .promotional-video{
-  margin-top: 10%;
+  margin-top: 10%; width: 100%;
 }
 footer {
   grid-area: footer;
@@ -104,4 +110,30 @@ footer {
   color: #000000;
   min-height: 12vh;
   width: 100vw;
+}
+.mobile-main{
+  display: none;
+}
+
+.section_back {
+  background-color: #b57ae2;
+  color: #ffffff;
+}
+.youtube{width:100%;}
+@media screen and (max-width:600px) {
+  .mobile-main{
+    display:initial; width: fit-content !important;
+  }
+  .screen-main{
+    display: none;
+  }
+  .navi{display: none;}
+}
+@media screen and (min-width:600px) {
+  .mobile-main{
+    display:none;
+  }
+  .screen-main{
+    display: initial;
+  }
 }
