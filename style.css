@@ -12,6 +12,7 @@ body{
     margin: 0%;
     
 }
+.head1{display: none !important;}
 header{
     grid-area: header;
     display: flex;
@@ -41,10 +42,11 @@ header{
   .menu{
         display: none;
     }
-@media screen and (min-width:600px) {
-    header{
-
-    }
+    main {padding-top: 8vh; padding-bottom: 11vh;}
+    .header2{display: initial;padding-top: 0%; height: fit-content; background-color: rgba(240, 255, 255, 0);}
+    
+@media screen and (min-width:576px) {
+main{padding-top:initial; padding-bottom:initial;}
 #opening{margin-right: 10vw; margin-top: 5vh;}
 .menu{display: unset;}
 .section-1{display: flex;}
@@ -55,6 +57,7 @@ header{
 #sign-up{
     margin-top: 5vh;;
 }
+.head1{display:initial !important;}
 #clip{ width: 70vw !important;}
  }
 #pluses{

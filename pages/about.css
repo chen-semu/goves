@@ -18,7 +18,7 @@ header {
   background-color: #6d4d84;
   color: #000000;
   position: sticky;
-  height: 125px;
+  height: fit-content;
 }
 footer {
   background-color: #6d4d84;
@@ -51,7 +51,7 @@ footer {
   width: 23vw;
 }
 .title {
-  color: white;
+  color: black;
   text-align: center;
 }
 /* .course { 
@@ -108,21 +108,31 @@ a:active {
   width: 30vw;
   height: 30vw;
 }
-@media screen and (max-width: 600px) {
+.header2{display:none !important;}
+.head1{display:initial !important;}
+@media screen and (max-width: 576px) {
   .circels {
     width: 40vw;
     height: 40vw;
     transition: none;
-  }
+  } 
+  .header2{display:initial !important;}
+  .head1{display: none !important;}
+  .all-videos{ display: flex; flex-direction: column; align-items: center; justify-content: center;}
+  .menu{
+    display: none;
+}
   .youtube {
   }
+  .all-videos {padding-top: 5vh; padding-bottom: 11vh;}
+  article {padding-top: 5vh; padding-bottom: 11vh;}
   .vedio-groups {
-    width: max-content;
+    width: 85vw;
     margin-bottom: 3vw;
   }
   .row-column {
     display: flex !important;
     flex-direction: column !important;
   }
-
+.investors{}
 }
