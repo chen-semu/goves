@@ -18,7 +18,7 @@ header {
   background-color: #6d4d84;
   color: #000000;
   position: sticky;
-  height: fit-content;
+  height:fit-content;
 }
 footer {
   background-color: #6d4d84;
@@ -109,7 +109,7 @@ a:active {
   height: 30vw;
 }
 .header2{display:none !important;}
-.head1{display:initial !important;}
+.head1{display:inherit !important;}
 @media screen and (max-width: 576px) {
   .circels {
     width: 40vw;
