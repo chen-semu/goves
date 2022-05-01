@@ -90,7 +90,6 @@ footer {
   color: #ffffff;
 }
 .youtube{width:100%;}
-.screen-main{}
 @media screen and (max-width:600px) {
   .mobile-main{
     display:initial; width: fit-content !important;
