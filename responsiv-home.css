@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-image: url(/PICS/home\ page.jpg);
     background-size: cover;
@@ -10,6 +11,8 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
 }
 header {
     background-color: #ffffff58;
