@@ -6,6 +6,19 @@ body{
     background-repeat: no-repeat;
 
 }
+.youtube {
+  width: 100%;
+}
+.vedio-groups2 {
+  background-color: rgba(255, 255, 255, 0.491);
+  border: 1px solid white;
+  border-radius: 1vw;
+  padding-top: 1vw;
+}
+
+.sidebar2 {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   body {
     grid-template-areas:
@@ -15,6 +28,23 @@ body{
       "main main"
       "footer footer";
     gap: 0;
+  }
+  
+  .sidebar2 {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: start;
+    overflow: hidden;
+    transition: all 4s;
+    width: 5vh;
+    height: 5vh;
+  }
+  .sidebar2:hover {
+    width: 13vh;
+    height: 40vh;
+    background: whitesmoke;
+    color: whitesmoke;
+    overflow: visible;
   }
 }
 @media screen and (min-width: 600px) {

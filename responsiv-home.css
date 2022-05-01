@@ -1,10 +1,74 @@
 body{
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    width: 230
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    -*+/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    vw;
     background-image: url(/PICS/home\ page.jpg);
+    background-color: #b57ae2;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidde;
 }
+.sign-up{;display: inline;}
 .center{
     display: flex;
     justify-content: center;
@@ -17,6 +81,7 @@ header {
     height: fit-content;
     width: 100vw;
 }
+.responsiv-bar{ width: 100vw !important;float: left;}
 .linkNavbar {
     text-decoration: none;
     color: #120460;

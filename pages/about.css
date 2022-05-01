@@ -44,10 +44,11 @@ footer {
   padding-top: 1vw;
 }
 .vedio-groups {
-  background-color: rgba(120, 120, 120, 0.265);
+  background-color: rgba(120, 120, 120, 0.171);
   border: 1px solid rgba(125, 125, 125, 0.477);
   border-radius: 1vw;
   padding-top: 1vw;
+  width: 23vw;
 }
 .title {
   color: white;
@@ -123,4 +124,5 @@ a:active {
     display: flex !important;
     flex-direction: column !important;
   }
+
 }
