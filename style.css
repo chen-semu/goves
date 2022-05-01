@@ -9,8 +9,7 @@ body{
     background-image: url(/pics/home\ page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0%;
-    
+    margin: 0%;    
 }
 header{
     grid-area: header;
@@ -42,9 +41,7 @@ header{
         display: none;
     }
 @media screen and (min-width:600px) {
-    header{
 
-    }
 #opening{margin-right: 10vw; margin-top: 5vh;}
 .menu{display: unset;}
 .section-1{display: flex;}

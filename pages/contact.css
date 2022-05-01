@@ -1,0 +1,30 @@
+header{
+    background-color: blueviolet;
+}
+.linkNavbar {
+    text-decoration: none;
+    color: #120460;
+    font-weight: bold;
+  }
+  a:link {
+    color: #301941;
+  }
+  a:visited {
+    color: #301941;
+  }
+  a:hover {
+    color: aliceblue;
+  }
+  a:active {
+    color: #b57ae2;
+  }
+  .menu{
+        display: none;
+    }
+
+form{
+    width: 50vw !important;
+}
+footer{
+    background-color: blueviolet;
+}
