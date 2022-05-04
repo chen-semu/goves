@@ -1,0 +1,14 @@
+body{
+    background-color: #743e9adc;
+    height: 100vh;
+}
+.login-div{
+    width: 80vw;
+    height: 80vh;
+}
+.form-outline{
+    color: black;
+}
+.button_text{
+    color: black;
+}
