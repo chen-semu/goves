@@ -2,13 +2,31 @@ body {
   background-color: #ffffff;
 }
 .h2 {
-  width: fit-content;}
+  width: fit-content;
+}
 .circels {
   width: 50vh;
   height: 50vh;
   border: 1px solid black;
   border-radius: 50vw;
   transition: all 1.5s ease-out;
+}
+.profile-pic {
+  height: 8vh !important;
+  width: 8vh !important;
+  border-radius: 9vh;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+.profile-pic2 {
+  height: 4vh !important;
+  width: 4vh !important;
+  border-radius: 9vh;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+.profile {
+  border-radius: 3vh;
+  background-color: #96969650;
+  border: 2px solid #6d4d84;
 }
 .every-course {
   text-decoration: none;
@@ -18,7 +36,7 @@ header {
   background-color: #6d4d84;
   color: #000000;
   position: sticky;
-  height:fit-content;
+  height: fit-content;
 }
 footer {
   background-color: #6d4d84;
@@ -86,8 +104,12 @@ a:active {
   width: 30vw;
   height: 30vw;
 }
-.header2{display:none !important;}
-.head1{display:inherit !important;}
+.header2 {
+  display: none !important;
+}
+.head1 {
+  display: inherit !important;
+}
 @media screen and (max-width: 576px) {
   .circels {
     width: 40vw;
@@ -110,7 +132,8 @@ a:active {
     display: flex !important;
     flex-direction: column !important;
   }
-.investors{}
+  .investors {
+  }
 }
 form{
   width: 50vw !important;
