@@ -6,7 +6,7 @@ body{
     'main main main'
     'footer footer footer'
     ;
-    background-image: url(PICS/home-page.jpg);
+    background-image: url(PICS/home-page2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0%;
@@ -46,6 +46,7 @@ header{
     .header2{display: initial;padding-top: 0%; height: fit-content; background-color: rgba(240, 255, 255, 0);}
     
 @media screen and (min-width:576px) {
+    body{background-image: url(/PICS/home-page.jpg);}
 main{padding-top:initial; padding-bottom:initial;}
 #opening{margin-right: 10vw; margin-top: 5vh;}
 .menu{display: unset;}
