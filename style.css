@@ -46,7 +46,7 @@ header{
     .header2{display: initial;padding-top: 0%; height: fit-content; background-color: rgba(240, 255, 255, 0);}
     
 @media screen and (min-width:576px) {
-    body{background-image: url(/PICS/home-page.jpg);}
+    body{background-image: url(PICS/home-page.jpg);}
 main{padding-top:initial; padding-bottom:initial;}
 #opening{margin-right: 10vw; margin-top: 5vh;}
 .menu{display: unset;}
