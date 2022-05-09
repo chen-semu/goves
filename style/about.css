@@ -144,42 +144,42 @@ form{
 }
 
 #team-pic_1{
-  background-image: url(/PICS/batel.jpg);
+  background-image: url(../PICS/batel.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
 }
 #team-pic_2{
-  background-image: url(/PICS/chen.jpg);
+  background-image: url(../PICS/chen.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
 }
 #team-pic_3{
-  background-image: url(/PICS/or.jpg);
+  background-image: url(../PICS/or.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
 }
 #team-pic_4{
-  background-image: url(/PICS/any\ age.jpg);
+  background-image: url(../PICS/any\ age.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
 }
 #team-pic_5{
-  background-image: url(/PICS/dalia.jpeg);
+  background-image: url(../PICS/dalia.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
 }
 #team-pic_6{
-  background-image: url(/PICS/aviel.jpg);
+  background-image: url(../PICS/aviel.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
