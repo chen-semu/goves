@@ -5,6 +5,7 @@ body{
 .login-div{
     width: 80vw;
     height: 80vh;
+    margin-bottom: 10vh;
 }
 .form-outline{
     color: black;
